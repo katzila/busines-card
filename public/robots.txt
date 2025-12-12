@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://anton-makulin.ru/sitemap.xml
