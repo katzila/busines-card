@@ -1,6 +1,6 @@
 import { readFile, writeFile } from 'fs/promises';
 import path from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const resolve = (...segments) => path.resolve(__dirname, '..', ...segments);
@@ -8,9 +8,11 @@ const resolve = (...segments) => path.resolve(__dirname, '..', ...segments);
 const templatePath = resolve('dist', 'index.html');
 const ssrBundlePath = resolve('dist-ssr', 'entry-server.js');
 
+const ssrBundleUrl = pathToFileURL(ssrBundlePath).href;
+
 const [templateHtml, { render }] = await Promise.all([
   readFile(templatePath, 'utf-8'),
-  import(ssrBundlePath)
+  import(ssrBundleUrl)
 ]);
 
 const appHtml = await render();
