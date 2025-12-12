@@ -40,7 +40,7 @@ const services = [
 ];
 
 const ServicesSection: React.FC = () => (
-  <Section id="services" title="Услуги и цены" subtitle="Чёткие цели, прозрачные условия. Первое занятие — бесплатно и со скидкой 30% на следующий урок.">
+  <Section id="services" title="Услуги и цены" subtitle="Чёткие цели, прозрачные условия. Первое занятие — со скидкой 30%.">
     <div className="services-grid">
       {services.map((service) => (
         <div key={service.category} className="card service-card">
@@ -56,7 +56,7 @@ const ServicesSection: React.FC = () => (
               </li>
             ))}
           </ul>
-          <p className="service-card__note">Гибкий график и формат: индивидуально или в мини-группе.</p>
+          <p className="service-card__note">Гибкий график и формат: индивидуально под ваш темп и задачи.</p>
         </div>
       ))}
     </div>

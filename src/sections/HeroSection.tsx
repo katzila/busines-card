@@ -9,11 +9,11 @@ const HeroSection: React.FC = () => {
         <div className="hero__tags">
           <Tag>Онлайн • Индивидуально</Tag>
           <Tag>История и английский язык</Tag>
-          <Tag>Первое занятие бесплатно</Tag>
+          <Tag>Первое занятие со скидкой 30%</Tag>
         </div>
         <h1 className="hero__title">
           Антон Макулин
-          <span>Учитель-репетитор истории и английского языка</span>
+          <span>Репетитор истории и английского языка</span>
         </h1>
         <p className="hero__subtitle">
           Помогаю школьникам и абитуриентам уверенно сдавать ВПР, ОГЭ, ЕГЭ и поступать
@@ -21,7 +21,7 @@ const HeroSection: React.FC = () => {
           траекторию подготовки и поддерживаю мотивацию на каждом шаге.
         </p>
         <div className="hero__actions">
-          <PrimaryButton href="#contact">Записаться на бесплатное занятие</PrimaryButton>
+          <PrimaryButton href="#contact">Записаться со скидкой 30%</PrimaryButton>
           <a className="hero__link" href="#services">Услуги и цены</a>
         </div>
         <div className="hero__highlight">

@@ -325,6 +325,16 @@ body {
   color: var(--muted);
 }
 
+.certificate-card__placeholder {
+  margin-top: 12px;
+  padding: 26px;
+  border: 1px dashed #cbd5e1;
+  border-radius: 12px;
+  text-align: center;
+  color: #475569;
+  background: #f8fafc;
+}
+
 .contact-card {
   display: grid;
   grid-template-columns: 1.3fr 0.7fr;
