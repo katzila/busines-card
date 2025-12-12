@@ -1,17 +1,19 @@
-# Визитка репетитора Антона Макулина
+# Tutor Anton Makulin — One-Page Business Card Website
 
-Одностраничный сайт-визитка для репетитора истории и английского языка. Проект на React + TypeScript с Vite и статической предпререндеренной выдачей для SEO.
+A single-page “business card” website for a history and English tutor. Built with React + TypeScript using Vite, with static pre-rendered output for SEO.
 
-## Скрипты
-- `npm install` — установка зависимостей
-- `npm run dev` — запуск дев-сервера
-- `npm run build` — сборка продакшен-бандла
-- `npm run build:prerender` — сборка клиентского и SSR-бандла с последующим статическим рендером в `dist/index.html`
-- `npm run preview` — предпросмотр собранной версии
+## Scripts
 
-## Особенности
-- Геро-блок с ключевыми ценностями, скидкой и быстрыми ссылками
-- Карточки услуг и цен с акцентом на скидку 30% на первое занятие
-- Описание результатов учеников, образования, опыта и сертификатов (заглушка диплома)
-- Блок контактов с CTA и возможностью написать в почту, Telegram или WhatsApp
-- SEO-теги, микроразметка и sitemap/robots для индексации
+* `npm install` — install dependencies
+* `npm run dev` — start the dev server
+* `npm run build` — build the production bundle
+* `npm run build:prerender` — build client and SSR bundles, then statically render into `dist/index.html`
+* `npm run preview` — preview the built version
+
+## Features
+
+* Hero section with key values, a discount, and quick links
+* Service and pricing cards highlighting **30% off the first lesson**
+* Overview of students’ results, education, experience, and certificates (diploma placeholder)
+* Contact section with a CTA and options to message via email, Telegram, or WhatsApp
+* SEO tags, structured data, and sitemap/robots for indexing
